@@ -1,0 +1,35 @@
+.player-card {
+    width: 18rem;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .player-card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .player-card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .player-card-text {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .players-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
